@@ -1,7 +1,7 @@
 # React C\# Practice
 
 ## Project Description
-This is a personal project to continue learning about web development. This web app will feature React frontend with .NET Core backend instead of .NET Core's MVC or Razor pages.
+This is a personal project to continue learning about web development. This web app will feature React frontend with ASP.NET Core backend instead of ASP.NET Core's MVC or Razor pages.
 
 More details to come.
 
@@ -20,6 +20,7 @@ More details to come.
 ---
 
 ## Credit
+[Linkedin Learning - Building React and ASP.NET Core Application](https://www.linkedin.com/learning/building-react-and-asp-dot-net-core-applications)
 
 ---
 

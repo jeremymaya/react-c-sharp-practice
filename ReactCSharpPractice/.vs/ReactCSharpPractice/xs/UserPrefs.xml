@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{E30E42C2-0E10-466B-8281-0E72D752E7F2}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/Data/Models/Trip.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../README.md">
     <Files>
       <File FileName="ReactCSharpPractice/Data/Models/Trip.cs" Line="18" Column="1" />
+      <File FileName="../README.md" Line="28" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
