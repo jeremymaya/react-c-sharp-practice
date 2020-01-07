@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{E30E42C2-0E10-466B-8281-0E72D752E7F2}|Default">
+  <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReactCSharpPractice" expanded="True">
+            <Node name="ReactCSharpPractice" expanded="True" />
+            <Node name="ReactCSharpPracticeTest" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ReactCSharpPracticeTest FirstBuild="True" />
+</Properties>

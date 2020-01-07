@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactCSharpPractice", "ReactCSharpPractice\ReactCSharpPractice.csproj", "{E30E42C2-0E10-466B-8281-0E72D752E7F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactCSharpPracticeTest", "ReactCSharpPracticeTest\ReactCSharpPracticeTest.csproj", "{0E12F369-D37A-43A8-B84D-03AB493B0EDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E30E42C2-0E10-466B-8281-0E72D752E7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30E42C2-0E10-466B-8281-0E72D752E7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30E42C2-0E10-466B-8281-0E72D752E7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30E42C2-0E10-466B-8281-0E72D752E7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E12F369-D37A-43A8-B84D-03AB493B0EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E12F369-D37A-43A8-B84D-03AB493B0EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E12F369-D37A-43A8-B84D-03AB493B0EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E12F369-D37A-43A8-B84D-03AB493B0EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
