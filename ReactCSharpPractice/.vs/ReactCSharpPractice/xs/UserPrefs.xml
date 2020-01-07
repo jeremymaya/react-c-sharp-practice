@@ -1,14 +1,22 @@
 ﻿<Properties StartupConfiguration="{E30E42C2-0E10-466B-8281-0E72D752E7F2}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../README.md">
+    <Files>
+      <File FileName="ReactCSharpPractice/Data/Models/Trip.cs" Line="18" Column="1" />
+      <File FileName="../README.md" Line="28" Column="43" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReactCSharpPractice" expanded="True">
-            <Node name="ReactCSharpPractice" expanded="True" />
-            <Node name="ReactCSharpPracticeTest" expanded="True">
-              <Node name="UnitTest1.cs" selected="True" />
+            <Node name="ReactCSharpPractice" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="Models" expanded="True">
+                  <Node name="Trip.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
+            <Node name="ReactCSharpPracticeTest" expanded="True" />
           </Node>
         </State>
       </Pad>
