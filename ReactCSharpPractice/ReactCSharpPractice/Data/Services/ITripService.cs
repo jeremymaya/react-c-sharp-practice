@@ -12,7 +12,7 @@ namespace ReactCSharpPractice.Data.Services
 
         void UpdateTrip(int tripId, Trip trip);
 
-        void DeleteTrip(int tripId, Trip trip);
+        void DeleteTrip(int tripId);
 
         void AddTrip(Trip trip);
     }

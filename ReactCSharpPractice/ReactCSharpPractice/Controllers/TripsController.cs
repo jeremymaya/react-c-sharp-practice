@@ -25,11 +25,19 @@ namespace ReactCSharpPractice.Controllers
             return Ok(allTrips);
         }
 
+        [HttpGet("SingleTrip/{tripId}")]
+        public IActionResult GetTrip(int tripId)
+        {
+            Trip trip = _tripService.GetTripById(tripId);
+
+            return Ok(trip);
+        }
+
         //url can be replaced with [action] since url and the action method names are the same
         [HttpPost("[action]")]
         public IActionResult AddTrip([FromBody]Trip trip)
         {
-            if(trip != null)
+            if (trip != null)
             {
                 _tripService.AddTrip(trip);
             }
@@ -41,6 +49,14 @@ namespace ReactCSharpPractice.Controllers
         public IActionResult UpdateTrip(int tripId, [FromBody]Trip trip)
         {
             _tripService.UpdateTrip(tripId, trip);
+
+            return Ok();
+        }
+
+        [HttpDelete("DeleteTrip /{tripId}")]
+        public IActionResult DeleteTrip(int tripId, [FromBody]Trip trip)
+        {
+            _tripService.DeleteTrip(tripId);
 
             return Ok();
         }

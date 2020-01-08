@@ -9,9 +9,14 @@ namespace ReactCSharpPractice.Data.Services
     {
         public void AddTrip(Trip trip) => Data.Trips.Add(trip);
 
-        public void DeleteTrip(int tripId, Trip trip)
+        public void DeleteTrip(int tripId)
         {
-            throw new NotImplementedException();
+            Trip trip = GetTripById(tripId);
+
+            if (trip != null)
+            {
+                Data.Trips.Remove(trip);
+            }
         }
 
         public List<Trip> GetAllTrips() => Data.Trips.ToList();
