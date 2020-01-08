@@ -2,13 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/Controllers/TripsController.cs">
     <Files>
-      <File FileName="ReactCSharpPractice/Data/Models/Trip.cs" Line="18" Column="1" />
-      <File FileName="../README.md" />
-      <File FileName="ReactCSharpPractice/Data/Services/ITripService.cs" />
-      <File FileName="ReactCSharpPractice/Data/Services/TripService.cs" />
-      <File FileName="ReactCSharpPractice/Data/Data.cs" />
-      <File FileName="ReactCSharpPractice/Startup.cs" Line="26" Column="1" />
-      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="6" Column="33" />
+      <File FileName="ReactCSharpPractice/Data/Services/TripService.cs" Line="20" Column="10" />
+      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="25" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
