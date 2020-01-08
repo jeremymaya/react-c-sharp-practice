@@ -1,24 +1,23 @@
 ﻿<Properties StartupConfiguration="{E30E42C2-0E10-466B-8281-0E72D752E7F2}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/Controllers/TripsController.cs">
     <Files>
-      <File FileName="ReactCSharpPractice/Data/Models/Trip.cs" Line="18" Column="1" />
-      <File FileName="../README.md" Line="28" Column="43" />
-      <File FileName="ReactCSharpPractice/Data/Services/ITripService.cs" Line="16" Column="1" />
-      <File FileName="ReactCSharpPractice/Data/Services/TripService.cs" Line="9" Column="1" />
-      <File FileName="ReactCSharpPractice/Data/Data.cs" Line="61" Column="11" />
-      <File FileName="ReactCSharpPractice/Startup.cs" Line="26" Column="1" />
+      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="43" Column="45" />
+      <File FileName="ReactCSharpPractice/Data/Services/TripService.cs" Line="19" Column="44" />
+      <File FileName="ReactCSharpPractice/Data/Services/ITripService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReactCSharpPractice" expanded="True">
             <Node name="ReactCSharpPractice" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="TripsController.cs" selected="True" />
+              </Node>
               <Node name="Data" expanded="True">
                 <Node name="Models" expanded="True" />
                 <Node name="Services" expanded="True" />
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
             <Node name="ReactCSharpPracticeTest" expanded="True" />
           </Node>
