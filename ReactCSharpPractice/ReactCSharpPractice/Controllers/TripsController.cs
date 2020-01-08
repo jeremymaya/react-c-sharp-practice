@@ -37,5 +37,12 @@ namespace ReactCSharpPractice.Controllers
             return Ok();
         }
 
+        [HttpPut("UpdateTrip/{tripId}")]
+        public IActionResult UpdateTrip(int tripId, [FromBody]Trip trip)
+        {
+            _tripService.UpdateTrip(tripId, trip);
+
+            return Ok();
+        }
     }
 }
