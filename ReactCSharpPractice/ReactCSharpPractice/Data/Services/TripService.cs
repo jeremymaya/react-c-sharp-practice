@@ -8,7 +8,7 @@ namespace ReactCSharpPractice.Data.Services
     {
         public void AddTrip(Trip trip)
         {
-            throw new NotImplementedException();
+            Data.Trips.Add(trip);
         }
 
         public void DeleteTrip(int tripId, Trip trip)
