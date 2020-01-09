@@ -10,6 +10,7 @@ export class Trips extends Component {
         super(props);
 
         this.onTripUpdate = this.onTripUpdate.bind(this);
+        this.onTripDelete = this.onTripDelete.bind(this);
 
         // sets the class' initial state
         this.state = {
@@ -28,6 +29,12 @@ export class Trips extends Component {
         const { history } = this.props;
 
         history.push('/update/' + id);
+    }
+
+    onTripDelete(id) {
+        const { history } = this.props;
+
+        history.push('/delete/' + id);
     }
 
     // sends a get request to the API backend 
@@ -55,7 +62,7 @@ export class Trips extends Component {
                 <tbody>
                     {
                     trips.map(trip => (
-                    // each table row needs to have a unique identifier 
+                    // each table row needs to have a unique identifier
                     <tr key={trip.id}>
                         <td>{trip.name}</td>
                         <td>{trip.description}</td>
@@ -65,6 +72,9 @@ export class Trips extends Component {
                                 <div className="form-group">
                                     <button onClick={() => this.onTripUpdate(trip.id)} className="btn btn-success">
                                         Update
+                                    </button>
+                                    <button onClick={() => this.onTripDelete(trip.id)} className="btn btn-danger">
+                                        Delete
                                     </button>
                                 </div>
                         </td>

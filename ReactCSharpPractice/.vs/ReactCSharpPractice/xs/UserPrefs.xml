@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{E30E42C2-0E10-466B-8281-0E72D752E7F2}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/Controllers/TripsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/components/Trip/Delete.jsx">
     <Files>
-      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Create.jsx" Line="12" Column="19" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Update.jsx" Line="74" Column="40" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/App.tsx" Line="17" Column="9" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Trips.jsx" Line="26" Column="1" />
-      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="1" Column="1" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Delete.jsx" Line="40" Column="24" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Update.jsx" Line="87" Column="6" NotebookId="1" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/App.tsx" Line="21" Column="1" NotebookId="1" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/components/NavMenu.tsx" Line="28" Column="15" NotebookId="1" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Trips.jsx" Line="81" Column="26" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,13 +16,17 @@
               <Node name="ClientApp" expanded="True">
                 <Node name="src" expanded="True">
                   <Node name="components" expanded="True">
-                    <Node name="Trip" expanded="True" />
+                    <Node name="Trip" expanded="True">
+                      <Node name="Delete.jsx" selected="True" />
+                    </Node>
                   </Node>
                   <Node name="App.tsx" expanded="True" />
                 </Node>
               </Node>
-              <Node name="Controllers" expanded="True">
-                <Node name="TripsController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="Services" expanded="True" />
               </Node>
             </Node>
           </Node>

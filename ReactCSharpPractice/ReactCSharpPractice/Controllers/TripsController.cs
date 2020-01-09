@@ -53,10 +53,10 @@ namespace ReactCSharpPractice.Controllers
             return Ok();
         }
 
-        [HttpDelete("DeleteTrip /{tripId}")]
-        public IActionResult DeleteTrip(int tripId, [FromBody]Trip trip)
+        [HttpDelete("DeleteTrip/{id}")]
+        public IActionResult DeleteTrip(int id)
         {
-            _tripService.DeleteTrip(tripId);
+            _tripService.DeleteTrip(id);
 
             return Ok();
         }
