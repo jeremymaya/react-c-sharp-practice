@@ -2,25 +2,35 @@
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/Controllers/TripsController.cs">
     <Files>
-      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="43" Column="45" />
-      <File FileName="ReactCSharpPractice/Data/Services/TripService.cs" Line="19" Column="44" />
-      <File FileName="ReactCSharpPractice/Data/Services/ITripService.cs" Line="1" Column="1" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Create.jsx" Line="12" Column="19" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Update.jsx" Line="74" Column="40" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/App.tsx" Line="17" Column="9" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Trips.jsx" Line="26" Column="1" />
+      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReactCSharpPractice" expanded="True">
             <Node name="ReactCSharpPractice" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="components" expanded="True">
+                    <Node name="Trip" expanded="True" />
+                  </Node>
+                  <Node name="App.tsx" expanded="True" />
+                </Node>
+              </Node>
               <Node name="Controllers" expanded="True">
                 <Node name="TripsController.cs" selected="True" />
               </Node>
-              <Node name="Data" expanded="True">
-                <Node name="Models" expanded="True" />
-                <Node name="Services" expanded="True" />
-              </Node>
             </Node>
-            <Node name="ReactCSharpPracticeTest" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ReactCSharpPractice" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

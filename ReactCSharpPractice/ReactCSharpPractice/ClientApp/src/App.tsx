@@ -8,11 +8,13 @@ import FetchData from './components/FetchData';
 import './custom.css'
 import { Trips } from './components/Trip/Trips';
 import { Create } from './components/Trip/Create';
+import { Update } from './components/Trip/Update';
 
 export default () => (
     <Layout>
         <Route exact path='/' component={Home} />
         <Route path='/create' component={Create} />
+        <Route path='/update/:tripId' component={Update} />
         <Route path='/trips' component={Trips} />
     </Layout>
 );

@@ -9,6 +9,8 @@ export class Trips extends Component {
     constructor(props) {
         super(props);
 
+        this.onTripUpdate = this.onTripUpdate.bind(this);
+
         // sets the class' initial state
         this.state = {
             trips: [],
@@ -22,8 +24,14 @@ export class Trips extends Component {
         this.populateTripsData();
     }
 
+    onTripUpdate(id) {
+        const { history } = this.props;
+
+        history.push('/update/' + id);
+    }
+
     // sends a get request to the API backend 
-    // npm install axios --save entered to use Axios which is needed to send HTTP requests
+    // npm install axios --save entered to use Axios which is needed to send HTTP requests 
     populateTripsData() {
         axios.get("api/Trips/GetTrips").then(result => {
             const response = result.data;
@@ -46,16 +54,22 @@ export class Trips extends Component {
                 </thead>
                 <tbody>
                     {
-                        trips.map(trip => (
-                        // each table row needs to have a unique identifier 
-                        <tr key={trip.id}>
-                            <td>{trip.name}</td>
-                            <td>{trip.description}</td>
-                            <td>{new Date(trip.dateStarted).toLocaleDateString()}</td>
-                            <td>{trip.dateCompleted ? new Date(trip.dateCompleted).toLocaleDateString : '-'}</td>
-                            <td> - </td>
-                        </tr>
-                        ))
+                    trips.map(trip => (
+                    // each table row needs to have a unique identifier 
+                    <tr key={trip.id}>
+                        <td>{trip.name}</td>
+                        <td>{trip.description}</td>
+                            <td>{new Date(trip.dateStarted).toISOString().slice(0, 10)}</td>
+                            <td>{trip.dateCompleted ? new Date(trip.dateCompleted).toISOString().slice(0, 10) : '-'}</td>
+                        <td>
+                                <div className="form-group">
+                                    <button onClick={() => this.onTripUpdate(trip.id)} className="btn btn-success">
+                                        Update
+                                    </button>
+                                </div>
+                        </td>
+                    </tr>
+                    ))
                     }
                 </tbody>
             </table>
