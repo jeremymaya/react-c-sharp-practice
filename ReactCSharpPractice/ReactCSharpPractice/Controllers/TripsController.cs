@@ -20,9 +20,17 @@ namespace ReactCSharpPractice.Controllers
         [HttpGet("GetTrips")]
         public IActionResult GetTrips()
         {
-            List<Trip> allTrips = _tripService.GetAllTrips();
+            try
+            {
+                List<Trip> allTrips = _tripService.GetAllTrips();
 
-            return Ok(allTrips);
+                return Ok(allTrips);
+
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpGet("SingleTrip/{tripId}")]

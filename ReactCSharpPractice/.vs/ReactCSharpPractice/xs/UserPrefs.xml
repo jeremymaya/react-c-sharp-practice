@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{E30E42C2-0E10-466B-8281-0E72D752E7F2}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/components/Trip/Delete.jsx">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/components/Trip/Trips.jsx">
     <Files>
-      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Delete.jsx" Line="40" Column="24" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Update.jsx" Line="87" Column="6" NotebookId="1" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/App.tsx" Line="21" Column="1" NotebookId="1" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/components/NavMenu.tsx" Line="28" Column="15" NotebookId="1" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Trips.jsx" Line="81" Column="26" NotebookId="1" />
+      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="23" Column="16" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Trips.jsx" Line="18" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +14,7 @@
                 <Node name="src" expanded="True">
                   <Node name="components" expanded="True">
                     <Node name="Trip" expanded="True">
-                      <Node name="Delete.jsx" selected="True" />
+                      <Node name="Trips.jsx" selected="True" />
                     </Node>
                   </Node>
                   <Node name="App.tsx" expanded="True" />

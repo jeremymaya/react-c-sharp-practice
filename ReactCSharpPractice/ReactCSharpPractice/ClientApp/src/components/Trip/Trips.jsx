@@ -15,7 +15,9 @@ export class Trips extends Component {
         // sets the class' initial state
         this.state = {
             trips: [],
-            loading: true
+            loading: true,
+            failed: false,
+            error: ''
         }
     }
 
@@ -38,11 +40,14 @@ export class Trips extends Component {
     }
 
     // sends a get request to the API backend 
-    // npm install axios --save entered to use Axios which is needed to send HTTP requests 
+    // npm install axios --save entered to use Axios which is needed to send HTTP requests
+    // .catch cathes error
     populateTripsData() {
         axios.get("api/Trips/GetTrips").then(result => {
             const response = result.data;
-            this.setState({trips: response, loading: false});
+            this.setState({trips: response, loading: false, failed: false, error: ""});
+        }).catch(error => {
+            this.setState({ trips: [], loading: false, failed: true, error: "Trips could not be loaded" });
         })
     }
 
@@ -93,9 +98,11 @@ export class Trips extends Component {
             <p>
                 <em>Loading...</em>
             </p>
-        ) : (
-                this.renderAllTripsTable(this.state.trips)
-            );
+        ) : (this.state.failed ? (
+            <p className="text-danger">
+                <em>{this.state.error}</em>
+            </p>
+        ) : (this.renderAllTripsTable(this.state.trips)))
 
         return (
             <div>
