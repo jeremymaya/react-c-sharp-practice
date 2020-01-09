@@ -1,5 +1,6 @@
 ﻿// imports the React and the Component from the React library 
 import React, { Component } from 'react';
+import axios from 'axios';
 
 // defines the export class 'Trips' which extends the Component base class 
 export class Trips extends Component {
@@ -14,6 +15,22 @@ export class Trips extends Component {
         }
     }
 
+    // lifecycle method
+    // sends a request to get all trips once the UI has been loaded
+    componentDidMount() {
+        this.populateTripsData();
+    }
+
+    // sends a get request to the API backend 
+    // npm install axios --save entered to use Axios which is needed to send HTTP requests
+    populateTripsData() {
+        axios.get("api/Trips/GetTrips").then(result => {
+            const response = result.data;
+            this.setState({trips: response, loading: false});
+        })
+    }
+
+    // method to render a HTML table with trips data
     renderAllTripsTable(trips) {
         return (
             <table className="table table-striped">
@@ -27,18 +44,25 @@ export class Trips extends Component {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>a</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
-                        <td> - </td>
-                    </tr>
+                    {
+                        trips.map(trip => (
+                        // each table row needs to have a unique identifier 
+                        <tr key={trip.id}>
+                            <td>{trip.name}</td>
+                            <td>{trip.description}</td>
+                            <td>{new Date(trip.dateStarted).toLocaleDateString()}</td>
+                            <td>{trip.dateCompleted ? new Date(trip.dateCompleted).toLocaleDateString : '-'}</td>
+                            <td> - </td>
+                        </tr>
+                        ))
+                    }
                 </tbody>
             </table>
         );
     }
 
+    // renders <div> which acts as the component's parent node
+    // only one nodule can be returned per class
     render() {
         let content = this.state.loading ? (
             <p>
