@@ -9,6 +9,7 @@ export class Trips extends Component {
     constructor(props) {
         super(props);
 
+        // sets the class' initial state
         this.state = {
             trips: [],
             loading: true
