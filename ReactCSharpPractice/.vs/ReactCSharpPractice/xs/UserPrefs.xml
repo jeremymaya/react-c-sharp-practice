@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{E30E42C2-0E10-466B-8281-0E72D752E7F2}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/actions/tripAction.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/reducers/index.js">
     <Files>
-      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="24" Column="14" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/actions/tripAction.js" Line="26" Column="2" />
+      <File FileName="../README.md" Line="22" Column="22" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/reducers/tripReducers.js" Line="37" Column="38" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/reducers/index.js" Line="9" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,17 +13,10 @@
             <Node name="ReactCSharpPractice" expanded="True">
               <Node name="ClientApp" expanded="True">
                 <Node name="src" expanded="True">
-                  <Node name="actions" expanded="True">
-                    <Node name="tripAction.js" selected="True" />
+                  <Node name="reducers" expanded="True">
+                    <Node name="index.js" selected="True" />
                   </Node>
-                  <Node name="components" expanded="True" />
-                  <Node name="App.tsx" expanded="True" />
                 </Node>
-              </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True">
-                <Node name="Models" expanded="True" />
-                <Node name="Services" expanded="True" />
               </Node>
             </Node>
           </Node>

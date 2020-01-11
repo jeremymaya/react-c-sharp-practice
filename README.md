@@ -19,6 +19,7 @@ This is a personal project to continue learning about web development. This is w
   * Separation of the concerns can be achieved by separating the HTML, CSS and JavaScript code into different files. 
 * Lifecycle - Every components goes through certain cycles and all those separate stages can be accesd by using React lifecycle methods.
 ### Redux
+* Reducer - describes how the application's state changes
 
 ### Auth0
 
