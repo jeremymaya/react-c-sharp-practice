@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{E30E42C2-0E10-466B-8281-0E72D752E7F2}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/components/Trip/Trips.jsx">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/actions/tripAction.js">
     <Files>
-      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="23" Column="16" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/components/Trip/Trips.jsx" Line="18" Column="26" />
+      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="24" Column="14" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/actions/tripAction.js" Line="26" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,11 +12,10 @@
             <Node name="ReactCSharpPractice" expanded="True">
               <Node name="ClientApp" expanded="True">
                 <Node name="src" expanded="True">
-                  <Node name="components" expanded="True">
-                    <Node name="Trip" expanded="True">
-                      <Node name="Trips.jsx" selected="True" />
-                    </Node>
+                  <Node name="actions" expanded="True">
+                    <Node name="tripAction.js" selected="True" />
                   </Node>
+                  <Node name="components" expanded="True" />
                   <Node name="App.tsx" expanded="True" />
                 </Node>
               </Node>
@@ -27,11 +26,6 @@
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="ReactCSharpPractice" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
