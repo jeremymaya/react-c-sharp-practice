@@ -7,7 +7,7 @@ This is a personal project to continue learning about web development. This is w
 * Redux
 * Auth0 for authentication
 
-![React logo](React.png) ![.NET logo](dotNet.png) ![Redux logo](Redux.png) ![Auth0 logo](Auth0.png)
+![React logo](https://github.com/jeremymaya/react-c-sharp-practice/blob/Redux/Assets/React.png) ![.NET logo](https://github.com/jeremymaya/react-c-sharp-practice/blob/Redux/Assets/dotNet.png) ![Redux logo](https://github.com/jeremymaya/react-c-sharp-practice/blob/Redux/Assets/Redux.png) ![Auth0 logo](https://github.com/jeremymaya/react-c-sharp-practice/blob/Redux/Assets/Auth0.png)
 
 ---
 
