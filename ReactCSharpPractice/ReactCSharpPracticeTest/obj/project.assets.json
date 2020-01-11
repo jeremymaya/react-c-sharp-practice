@@ -6585,11 +6585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeremiah/Desktop/react-c-sharp-practice/ReactCSharpPractice/ReactCSharpPracticeTest/ReactCSharpPracticeTest.csproj",
+      "projectUniqueName": "/Users/jeremiah/OneDrive/Coding/code-post/react-c-sharp-practice/ReactCSharpPractice/ReactCSharpPracticeTest/ReactCSharpPracticeTest.csproj",
       "projectName": "ReactCSharpPracticeTest",
-      "projectPath": "/Users/jeremiah/Desktop/react-c-sharp-practice/ReactCSharpPractice/ReactCSharpPracticeTest/ReactCSharpPracticeTest.csproj",
+      "projectPath": "/Users/jeremiah/OneDrive/Coding/code-post/react-c-sharp-practice/ReactCSharpPractice/ReactCSharpPracticeTest/ReactCSharpPracticeTest.csproj",
       "packagesPath": "/Users/jeremiah/.nuget/packages/",
-      "outputPath": "/Users/jeremiah/Desktop/react-c-sharp-practice/ReactCSharpPractice/ReactCSharpPracticeTest/obj/",
+      "outputPath": "/Users/jeremiah/OneDrive/Coding/code-post/react-c-sharp-practice/ReactCSharpPractice/ReactCSharpPracticeTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jeremiah/.config/NuGet/NuGet.Config"
