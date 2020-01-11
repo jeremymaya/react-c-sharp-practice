@@ -19,8 +19,14 @@ This is a personal project to continue learning about web development. This is w
   * Separation of the concerns can be achieved by separating the HTML, CSS and JavaScript code into different files. 
 * Lifecycle - Every components goes through certain cycles and all those separate stages can be accesd by using React lifecycle methods.
 ### Redux
+* Action - payloads of information that send data from the application to the store
+    * Only source of data for the store
 * Reducer - describes how the application's state changes
-
+* Store
+    * Holds application state
+    * getState() - access application state
+    * dispatch(action) - update application state
+    * subscribe(listener) - register and unregister listners
 ### Auth0
 
 ---
@@ -31,13 +37,17 @@ This is a personal project to continue learning about web development. This is w
     ```bash
     npm install axios --save
     ```
+* Redux which connects redux store to ReactComponents
+    ```bash
+    npm install redux
+    ```
 * React Redux which connects redux store to ReactComponents
     ```bash
-    npm install redux react-thunk
+    npm install react-redux
     ```
 * React Thunk which is a redux middleware for async actions (promises)
     ```bash
-    npm install redux react-thunk
+    npm install react-thunk
     ```
 
 ---

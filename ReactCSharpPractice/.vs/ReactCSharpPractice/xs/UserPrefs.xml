@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{E30E42C2-0E10-466B-8281-0E72D752E7F2}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/reducers/index.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/store/store.js">
     <Files>
-      <File FileName="../README.md" Line="22" Column="22" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/reducers/tripReducers.js" Line="37" Column="38" />
+      <File FileName="../README.md" Line="34" Column="19" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/reducers/tripReducers.js" />
       <File FileName="ReactCSharpPractice/ClientApp/src/reducers/index.js" Line="9" Column="26" />
+      <File FileName="ReactCSharpPractice/ClientApp/src/store/store.js" Line="1" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,8 +14,9 @@
             <Node name="ReactCSharpPractice" expanded="True">
               <Node name="ClientApp" expanded="True">
                 <Node name="src" expanded="True">
-                  <Node name="reducers" expanded="True">
-                    <Node name="index.js" selected="True" />
+                  <Node name="reducers" expanded="True" />
+                  <Node name="store" expanded="True">
+                    <Node name="store.js" selected="True" />
                   </Node>
                 </Node>
               </Node>
