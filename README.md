@@ -7,6 +7,8 @@ This is a personal project to continue learning about web development. This is w
 * Redux
 * Auth0 for authentication
 
+![ReactLogo](https://github.com/jeremymaya/react-c-sharp-practice/blob/Redux/Assets/ReactLogo.png) ![dotNetLogo](https://github.com/jeremymaya/react-c-sharp-practice/blob/Redux/Assets/dotNetLogo.png) ![ReduxLogo](https://github.com/jeremymaya/react-c-sharp-practice/blob/Redux/Assets/ReduxLogo.png) ![Auth0Logo](https://github.com/jeremymaya/react-c-sharp-practice/blob/Redux/Assets/Auth0Logo.png)
+
 ---
 
 ## Learning Journal
