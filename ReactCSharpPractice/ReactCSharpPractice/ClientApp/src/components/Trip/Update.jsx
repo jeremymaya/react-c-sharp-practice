@@ -22,10 +22,10 @@ export class Update extends Component {
 
     // lifecycle method
     componentDidMount() {
-        // tripId comes from URI <Route path='/update/:tripId' component={Update} />
-        const { tripId } = this.props.match.params;
+        // tripId comes from URI <Route path='/update/:tripId' component={Update} /> 
+        const { id } = this.props.match.params;
 
-        axios.get("/api/Trips/SingleTrip/" + tripId).then(trip => {
+        axios.get("api/Trips/SingleTrip/" + id).then(trip => {
             const response = trip.data;
 
             this.setState({

@@ -33,10 +33,10 @@ namespace ReactCSharpPractice.Controllers
             }
         }
 
-        [HttpGet("SingleTrip/{tripId}")]
-        public IActionResult GetTrip(int tripId)
+        [HttpGet("SingleTrip/{id}")]
+        public IActionResult GetTrip(int id)
         {
-            Trip trip = _tripService.GetTripById(tripId);
+            Trip trip = _tripService.GetTripById(id);
 
             return Ok(trip);
         }
@@ -53,10 +53,10 @@ namespace ReactCSharpPractice.Controllers
             return Ok();
         }
 
-        [HttpPut("UpdateTrip/{tripId}")]
-        public IActionResult UpdateTrip(int tripId, [FromBody]Trip trip)
+        [HttpPut("UpdateTrip/{id}")]
+        public IActionResult UpdateTrip(int id, [FromBody]Trip trip)
         {
-            _tripService.UpdateTrip(tripId, trip);
+            _tripService.UpdateTrip(id, trip);
 
             return Ok();
         }

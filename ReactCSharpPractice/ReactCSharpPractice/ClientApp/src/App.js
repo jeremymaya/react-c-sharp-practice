@@ -18,8 +18,8 @@ export default class App extends Component {
         <Route exact path='/' component={Home} />
         <Route path='/trips' component={Trips} />
         <Route path='/create' component={Create} />
-        <Route path='/update' component={Update} />
-        <Route path='/delete' component={Delete} />
+        <Route path='/update/:id' component={Update} />
+        <Route path='/delete/:id' component={Delete} />
       </Layout>
     );
   }
