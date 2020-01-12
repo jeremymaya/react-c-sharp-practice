@@ -18,16 +18,17 @@ export class Delete extends Component {
 
     componentDidMount() {
         const { id } = this.props.match.params;
-
-        axios.get("/api/Trips/SingleTrip/" + id).then(trip => {
+        
+        axios.get("api/Trips/SingleTrip/" + id).then(trip => {
+            console.log(trip);
             const response = trip.data;
-
             this.setState({
                 name: response.name,
                 description: response.description,
                 dateStarted: response.dateStarted ? new Date(response.dateStarted).toISOString().slice(0, 10) : null,
                 dateCompleted: response.dateCompleted ? new Date(response.dateCompleted).toISOString().slice(0, 10) : null
             })
+            console.log(this.state);
         })
     }
 

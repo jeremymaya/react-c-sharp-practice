@@ -9,9 +9,9 @@ namespace ReactCSharpPractice.Data.Services
     {
         public void AddTrip(Trip trip) => Data.Trips.Add(trip);
 
-        public void DeleteTrip(int tripId)
+        public void DeleteTrip(int id)
         {
-            Trip trip = GetTripById(tripId);
+            Trip trip = GetTripById(id);
 
             if (trip != null)
             {
@@ -21,11 +21,11 @@ namespace ReactCSharpPractice.Data.Services
 
         public List<Trip> GetAllTrips() => Data.Trips.ToList();
 
-        public Trip GetTripById(int tripId) => Data.Trips.FirstOrDefault(x => x.Id == tripId);
+        public Trip GetTripById(int id) => Data.Trips.FirstOrDefault(x => x.Id == id);
 
-        public void UpdateTrip(int tripId, Trip trip)
+        public void UpdateTrip(int id, Trip trip)
         {
-            Trip oldTrip = GetTripById(tripId);
+            Trip oldTrip = GetTripById(id);
 
             if (oldTrip != null)
             {

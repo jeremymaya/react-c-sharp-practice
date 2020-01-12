@@ -1,8 +1,11 @@
-import * as React from 'react';
-import { connect } from 'react-redux';
+import React, { Component } from 'react';
 
-const Home = () => (
-    <div>
+export class Home extends Component {
+  static displayName = Home.name;
+
+  render () {
+    return (
+      <div>
         <h1>Welcome to trip manager!</h1>
         <p>This web application is built using React.js frontend and ASP.NET API backend. Use this manager to mange your trips by:</p>
         <ul>
@@ -11,7 +14,7 @@ const Home = () => (
             <li>Delete a trip</li>
             <li>Show all trips</li>
         </ul>
-  </div>
-);
-
-export default connect()(Home);
+      </div>
+    );
+  }
+}

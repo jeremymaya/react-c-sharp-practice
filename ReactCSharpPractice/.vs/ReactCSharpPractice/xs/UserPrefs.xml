@@ -1,23 +1,18 @@
-﻿<Properties StartupConfiguration="{E30E42C2-0E10-466B-8281-0E72D752E7F2}|Default">
+﻿<Properties StartupConfiguration="{0BD00ECE-1B0F-422D-98CA-1ADCC5841E96}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/reducers/index.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/Startup.cs">
     <Files>
-      <File FileName="../README.md" Line="22" Column="22" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/reducers/tripReducers.js" Line="37" Column="38" />
-      <File FileName="ReactCSharpPractice/ClientApp/src/reducers/index.js" Line="9" Column="26" />
+      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="1" Column="1" />
+      <File FileName="ReactCSharpPractice/Startup.cs" Line="30" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReactCSharpPractice" expanded="True">
             <Node name="ReactCSharpPractice" expanded="True">
-              <Node name="ClientApp" expanded="True">
-                <Node name="src" expanded="True">
-                  <Node name="reducers" expanded="True">
-                    <Node name="index.js" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
+              <Node name="ClientApp" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -30,5 +25,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ReactCSharpPracticeTest FirstBuild="True" />
 </Properties>
