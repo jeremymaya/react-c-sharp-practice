@@ -1,4 +1,28 @@
-﻿<Properties StartupConfiguration="{E4CF4D2F-5F64-422B-BDB7-35026D266B76}|Default">
-  <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice FirstBuild="True" />
+﻿<Properties StartupConfiguration="{0BD00ECE-1B0F-422D-98CA-1ADCC5841E96}|Default">
+  <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/Startup.cs">
+    <Files>
+      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="1" Column="1" />
+      <File FileName="ReactCSharpPractice/Startup.cs" Line="30" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReactCSharpPractice" expanded="True">
+            <Node name="ReactCSharpPractice" expanded="True">
+              <Node name="ClientApp" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
