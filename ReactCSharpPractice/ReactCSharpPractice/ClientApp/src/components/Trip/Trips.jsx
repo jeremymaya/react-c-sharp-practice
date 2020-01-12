@@ -1,8 +1,8 @@
 ﻿// imports the React and the Component from the React library
 import React, { Component } from 'react';
 import axios from 'axios';
-//import { connect } from 'react-redux';
-//import { getAllTrips } from '../../actions/tripActions';
+import { connect } from 'react-redux';
+import { getAllTrips } from '../../actions/tripActions';
 
 // defines the export class 'Trips' which extends the Component base class 
 export class Trips extends Component {
@@ -27,16 +27,16 @@ export class Trips extends Component {
     // sends a request to get all trips once the UI has been loaded
     componentDidMount() {
         // makes a get request directly to the API backend, thus it won't be used with Redux
-        this.populateTripsData();
+        //this.populateTripsData();
 
-        //this.props.getAllTrips();
+        this.props.getAllTrips();
     }
 
-    //componentDidUpdate(prevProps) {
-    //    if (prevProps.trips.data != this.props.trips.data) {
-    //        this.setState({ trips: this.props.trips.data });
-    //    }
-    //}
+    componentDidUpdate(prevProps) {
+        if (prevProps.trips.data != this.props.trips.data) {
+            this.setState({ trips: this.props.trips.data });
+        }
+    }
 
     onTripUpdate(id) {
         const { history } = this.props;
@@ -54,15 +54,14 @@ export class Trips extends Component {
     // npm install axios --save entered to use Axios which is needed to send HTTP requests
     // .catch cathes error
     // makes a get request directly to the API backend, thus it won't be used with Redux
-
-    populateTripsData() {
-        axios.get("api/Trips/GetTrips").then(result => {
-            const response = result.data;
-            this.setState({trips: response, loading: false, failed: false, error: ""});
-        }).catch(error => {
-            this.setState({ trips: [], loading: false, failed: true, error: "Trips could not be loaded" });
-        })
-    }
+    //populateTripsData() {
+    //    axios.get("api/Trips/GetTrips").then(result => {
+    //        const response = result.data;
+    //        this.setState({trips: response, loading: false, failed: false, error: ""});
+    //    }).catch(error => {
+    //        this.setState({ trips: [], loading: false, failed: true, error: "Trips could not be loaded" });
+    //    })
+    //}
 
     // method to render a HTML table with trips data
     renderAllTripsTable(trips) {
@@ -108,26 +107,26 @@ export class Trips extends Component {
     // only one nodule can be returned per class
     render() {
         // not needed anymore with Redux
-        let content = this.state.loading ? (
-            <p>
-                <em>Loading...</em>
-            </p>
-        ) : (this.state.failed ? (
-            <p className="text-danger">
-                <em>{this.state.error}</em>
-            </p>
-        ) : (this.renderAllTripsTable(this.state.trips)))
+        //let content = this.state.loading ? (
+        //    <p>
+        //        <em>Loading...</em>
+        //    </p>
+        //) : (this.state.failed ? (
+        //    <p className="text-danger">
+        //        <em>{this.state.error}</em>
+        //    </p>
+        //) : (this.renderAllTripsTable(this.state.trips)))
 
-        // using props instead now
-        /*
-        let content = this.props.trips.loading ? (
-            <p>
-                <em>Loading...</em>
-            </p>
-        ) : (
+        // using props instead now 
+        let content = this.props.trips.loading ?
+            (
+                <p>
+                    <em>Loading...</em>
+                </p>
+            ) : (
                 this.state.trips.length && this.renderAllTripsTable(this.state.trips)
             );
-        */
+
         return (
             <div>
                 <h1>All Trips</h1>
@@ -139,8 +138,8 @@ export class Trips extends Component {
 }
 
 // allows the Trips component to access data from store
-//const mapStateToProps = ({ trips }) => ({
-//    trips
-//});
+const mapStateToProps = ({ trips }) => ({
+    trips
+});
 
-//export default connect(mapStateToProps, { getAllTrips })(Trips);
+export default connect(mapStateToProps, { getAllTrips })(Trips);

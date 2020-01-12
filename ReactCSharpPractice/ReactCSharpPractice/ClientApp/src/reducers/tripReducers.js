@@ -8,7 +8,7 @@
 const INITIAL_STATE = {
     loading: false,
     hasError: false,
-    // placeholder for the error message 
+    // placeholder for the error message  
     erro: null,
     data: []
 }
@@ -36,6 +36,7 @@ export default (state = INITIAL_STATE, action) => {
                 hasError: true,
                 error: action.payload
             }
+
         default:
             return state;
     }
