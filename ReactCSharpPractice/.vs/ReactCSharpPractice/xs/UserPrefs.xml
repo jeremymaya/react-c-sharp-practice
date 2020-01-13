@@ -1,19 +1,11 @@
-﻿<Properties StartupConfiguration="{0BD00ECE-1B0F-422D-98CA-1ADCC5841E96}|Default">
+﻿<Properties StartupConfiguration="{7FE6A983-0776-4169-9C9F-455A61F9594C}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/Startup.cs">
-    <Files>
-      <File FileName="ReactCSharpPractice/Controllers/TripsController.cs" Line="1" Column="1" />
-      <File FileName="ReactCSharpPractice/Startup.cs" Line="30" Column="14" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReactCSharpPractice" expanded="True">
-            <Node name="ReactCSharpPractice" expanded="True">
-              <Node name="ClientApp" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
-            </Node>
+            <Node name="ReactCSharpPractice" expanded="True" />
           </Node>
         </State>
       </Pad>
