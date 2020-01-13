@@ -33,11 +33,11 @@ This is a personal project to continue learning about web development. This is w
     ```
 * React Redux which connects redux store to ReactComponents
     ```bash
-    npm install redux react-thunk
+    npm installreact-thunk
     ```
 * React Thunk which is a redux middleware for async actions (promises)
     ```bash
-    npm install redux react-thunk
+    npm install react-thunk
     ```
 
 ---
