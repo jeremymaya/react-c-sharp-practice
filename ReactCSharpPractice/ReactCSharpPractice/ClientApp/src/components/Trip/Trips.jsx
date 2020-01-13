@@ -1,6 +1,5 @@
 ﻿// imports the React and the Component from the React library
 import React, { Component } from 'react';
-import axios from 'axios';
 import { connect } from 'react-redux';
 import { getAllTrips } from '../../actions/tripActions';
 
@@ -137,7 +136,7 @@ export class Trips extends Component {
     }
 }
 
-// allows the Trips component to access data from store
+// allows the Trips component to access data from store 
 const mapStateToProps = ({ trips }) => ({
     trips
 });
