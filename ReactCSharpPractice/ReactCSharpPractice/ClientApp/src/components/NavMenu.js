@@ -29,11 +29,11 @@ const NavMenu = () => {
                         </NavItem>
                     </ul>
                     ):(
-                        <ul>
-                            <NavItem>
-                                <button className="btn btn-success" onClick={() => loginWithRedirect()}>Login</button>
-                            </NavItem>
-                        </ul>
+                    <ul className="navbar-nav flex-grow">
+                        <NavItem>
+                            <button className="btn btn-success" onClick={() => loginWithRedirect()}>Login</button>
+                        </NavItem>
+                    </ul>
                     )}
                 </Container>
             </Navbar>
