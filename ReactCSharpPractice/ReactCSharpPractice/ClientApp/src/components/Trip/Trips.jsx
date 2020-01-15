@@ -32,7 +32,7 @@ export class Trips extends Component {
     }
 
     componentDidUpdate(prevProps) {
-        if (prevProps.trips.data != this.props.trips.data) {
+        if (prevProps.trips.data !== this.props.trips.data) {
             this.setState({ trips: this.props.trips.data });
         }
     }
