@@ -85,9 +85,9 @@ Next follow the [Auth0 Single-Page App for React](https://auth0.com/docs/quickst
 ---
 
 ## Credit
-[Linkedin Learning - Building React and ASP.NET Core Application](https://www.linkedin.com/learning/building-react-and-asp-dot-net-core-applications)  
-[Stack Overflow - What are differences between redux, react-redux, redux-thunk?](https://stackoverflow.com/questions/38405571/what-are-differences-between-redux-react-redux-redux-thunk) . 
-[Auth0 Docs - Auth0 Single-Page App for React](https://auth0.com/docs/quickstart/spa/react)
+* [Linkedin Learning - Building React and ASP.NET Core Application](https://www.linkedin.com/learning/building-react-and-asp-dot-net-core-applications)  
+* [Stack Overflow - What are differences between redux, react-redux, redux-thunk?](https://stackoverflow.com/questions/38405571/what-are-differences-between-redux-react-redux-redux-thunk) . 
+* [Auth0 Docs - Auth0 Single-Page App for React](https://auth0.com/docs/quickstart/spa/react)
 
 ---
 
