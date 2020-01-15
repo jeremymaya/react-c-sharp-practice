@@ -1,33 +1,14 @@
 ﻿<Properties StartupConfiguration="{C053647A-6539-46FE-A5C6-DFB7E32F2D1E}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactCSharpPractice/ClientApp/src/index.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../README.md">
     <Files>
-      <File FileName="ReactCSharpPractice/ClientApp/src/index.js" Line="32" Column="46" />
+      <File FileName="../README.md" Line="84" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ReactCSharpPractice" expanded="True">
-            <Node name="ReactCSharpPractice" expanded="True">
-              <Node name="ClientApp" expanded="True">
-                <Node name="public" expanded="True" />
-                <Node name="src" expanded="True">
-                  <Node name="actions" expanded="True" />
-                  <Node name="assets" expanded="True" />
-                  <Node name="components" expanded="True">
-                    <Node name="Trip" expanded="True" />
-                  </Node>
-                  <Node name="reducers" expanded="True" />
-                  <Node name="store" expanded="True" />
-                  <Node name="index.js" selected="True" />
-                </Node>
-              </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True">
-                <Node name="Models" expanded="True" />
-                <Node name="Services" expanded="True" />
-              </Node>
-            </Node>
+          <Node name="ReactCSharpPractice" expanded="True" selected="True">
+            <Node name="ReactCSharpPractice" expanded="True" />
           </Node>
         </State>
       </Pad>
