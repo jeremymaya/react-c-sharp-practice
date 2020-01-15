@@ -1,10 +1,13 @@
-﻿<Properties StartupConfiguration="{7FE6A983-0776-4169-9C9F-455A61F9594C}|Default">
+﻿<Properties StartupConfiguration="{C053647A-6539-46FE-A5C6-DFB7E32F2D1E}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactCSharpPractice PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../README.md">
+    <Files>
+      <File FileName="../README.md" Line="84" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ReactCSharpPractice" expanded="True">
+          <Node name="ReactCSharpPractice" expanded="True" selected="True">
             <Node name="ReactCSharpPractice" expanded="True" />
           </Node>
         </State>
