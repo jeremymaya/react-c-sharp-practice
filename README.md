@@ -11,6 +11,7 @@ This is a personal project to continue learning about web development. This is w
 
 ## Learning Journal
 ### React
+React or ReactJS is a JavaScript library for building user interfaces. React renders data to the DOM ,however, usually requires the use of additional libraries for state management, routing, and interaction with an API.
 * Component -  An individual item that can obtain other items. It serves as a container or logic to get data, other components for specific functionality etc. 
 * Props - Similar to an HTML attribute. It allows any data type to be passed as long as JavaScript support it. 
   * Context is used to pass data through many levels
@@ -26,7 +27,6 @@ Redux is a state management tool for JavaScript applications. The main concept b
 * Reducer - the table of an application which describes how the application's state changes
     * It accepts two parameters - an action and the previous state
 * Action - represents payloads of information that are dispatched to the store from the application and are usually triggered by user interaction
-### Auth0
 
 ---
 
