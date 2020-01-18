@@ -19,7 +19,13 @@ This is a personal project to continue learning about web development. This is w
   * Separation of the concerns can be achieved by separating the HTML, CSS and JavaScript code into different files. 
 * Lifecycle - Every components goes through certain cycles and all those separate stages can be accesd by using React lifecycle methods.
 ### Redux
-* Reducer - describes how the application's state changes
+Redux is a state management tool for JavaScript applications. The main concept behind Redux is that the entire state of an application is stored in one central location.
+* Store - the database of an application which stores different states defined in the application
+    * It is a single immutable data searcher
+    * It serves as a client side single source of truth
+* Reducer - the table of an application which describes how the application's state changes
+    * It accepts two parameters - an action and the previous state
+* Action - represents payloads of information that are dispatched to the store from the application and are usually triggered by user interaction
 ### Auth0
 
 ---
